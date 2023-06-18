@@ -30,50 +30,6 @@
 
     <!-------   Header start ------>
     <header class="header-area">
-        <!---- navbar start--->
-        <!-- <div class="navbar-area">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#">
-                            <img class="image" height="80px" src="assets/img/header/logo/logo.png" alt="">
-                        </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ms-auto">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#Home">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#AboutBootcamp">About The Bootcamp</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#Week1">Week1 Module</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#Week2">Week2 Module</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#FAQ">FAQ</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#Contact">Contact Us</a>
-                                </li>
-
-
-                            </ul>
-
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div> -->
-
         <!-- Updated nav bar -->
 
         <div class="navbar-container">
@@ -81,35 +37,35 @@
                 <a href="#"><img src="./assets/img/header/logo/logo.webp" alt="logo" loading="lazy"></a>
             </div>
 
-            <div class="link-container">
-                <ul>
-                    <li class="nav-items">
-                        <a class="nav-links active" aria-current="page" href="#Home">Home</a>
-                    </li>
-                    <li class="nav-items">
-                        <a class="nav-links" href="#AboutBootcamp">About The Bootcamp</a>
-                    </li>
 
-                    <li class="nav-items">
-                        <a class="nav-links" href="#Week1">Week1 Module</a>
-                    </li>
-                    <li class="nav-items">
-                        <a class="nav-links" href="#Week2">Week2 Module</a>
-                    </li>
-                    <li class="nav-items">
-                        <a class="nav-links" href="#FAQ">FAQ</a>
-                    </li>
-                    <li class="nav-items">
-                        <a class="nav-links" href="#Contact">Contact Us</a>
-                    </li>
-                </ul>
+            <u class="link-container">
+                <li class="nav-items">
+                    <a class="nav-links active" aria-current="page" href="#Home" onclick="navBarToggle()">Home</a>
+                </li>
+                <li class="nav-items">
+                    <a class="nav-links" href="#AboutBootcamp" onclick="navBarToggle()">About The Bootcamp</a>
+                </li>
+
+                <li class="nav-items">
+                    <a class="nav-links" href="#Week1" onclick="navBarToggle()">Week1 Module</a>
+                </li>
+                <li class="nav-items">
+                    <a class="nav-links" href="#Week2" onclick="navBarToggle()">Week2 Module</a>
+                </li>
+                <li class="nav-items">
+                    <a class="nav-links" href="#FAQ" onclick="navBarToggle()">FAQ</a>
+                </li>
+                <li class="nav-items">
+                    <a class="nav-links" href="#Contact" onclick="navBarToggle()">Contact Us</a>
+                </li>
+            </u>
+
+
+            <div class="hamburger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
             </div>
-
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
         </div>
 
 
@@ -136,7 +92,8 @@
                     <div class="btn-container">
                         <button class="hero-btn">Explore Us</button>
 
-                        <a href="https://www.youtube.com/watch?v=9wN0ATzFMho" target="_blank" class="yt-link-btn"> <i class="fas fa-play"></i></a>
+                        <a href="https://www.youtube.com/watch?v=9wN0ATzFMho" target="_blank" class="yt-link-btn"> <i
+                                class="fas fa-play"></i></a>
                     </div>
 
                 </div>
@@ -145,8 +102,7 @@
                     <div class="shape1"></div>
                     <div class="shape2"></div>
 
-                    <svg class="dotted"
-                        fill="none" height="384" viewBox="0 0 364 384" width="364">
+                    <svg class="dotted" fill="none" height="384" viewBox="0 0 364 384" width="364">
                         <defs>
                             <pattern height="20" id="eab71dd9-9d7a-47bd-8044-256344ee00d0" patternUnits="userSpaceOnUse"
                                 width="20" x="0" y="0">
@@ -864,6 +820,7 @@
             </div>
         </footer>
         <!-- --------------Footer Section End ------- -->
+        <script src="./script.js"></script>
 
 </body>
 
