@@ -12,3 +12,6 @@ function playvideo(link) {
     document.getElementById('player').style.display = "block";
     document.getElementById('iframe').src = `https://www.youtube.com/embed/${link}`;
 }
+
+
+  
