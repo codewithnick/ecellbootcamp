@@ -703,6 +703,7 @@ span {
   margin-top: 100px;
   position: relative;
   overflow: hidden;
+  padding-top: 5rem;
 }
 
 .footer-area .footer-shape {
