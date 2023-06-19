@@ -208,7 +208,8 @@ span {
 .navbar-container {
   display: flex;
   align-items: center;
-  position: sticky;
+  position: fixed;
+  width: 100%;
   justify-content: space-between;
   padding: 10px;
   background-color: white;
@@ -289,7 +290,7 @@ span {
 }
 
 .hero-container {
-  padding: 6rem 5rem;
+  padding: 11rem 5rem;
   height: 100%;
   width: 100%;
   display: flex;
@@ -528,7 +529,8 @@ span {
 
 /* Default styles for the feature container */
 .feature-section .container {
-  margin-bottom: 0; /* Set the default margin-bottom value */
+  margin-bottom: 0;
+  padding-top: 4rem; /* Set the default margin-bottom value */
 }
 
 /* Media query for smaller screens */
@@ -919,6 +921,7 @@ span {
     align-items: center;
     margin-left: 50px;
     margin-bottom: -30px;
+    padding-top: 5rem;
     @media (max-width: 767px) {
       margin-bottom: 0px; 
   }
